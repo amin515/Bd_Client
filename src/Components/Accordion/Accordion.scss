@@ -1,0 +1,34 @@
+
+.accordion{
+    .accordion-header{
+     h4{
+        font-family: var(--poppins);
+     }
+    }
+    .accordion-body{
+        p{
+            font-family: var(--poppins);
+            text-align: justify;
+        }
+    }
+}
+
+.table{
+    font-family: var(--poppins);
+    .comment__tab{
+        width: 400px;
+    }
+    .revirw__star{
+        ul{
+            display: flex;
+            padding: 0;
+            li{
+                list-style: none;
+                padding: 0 3px;
+                color: #f79028;
+            }
+        }
+    }
+}
+
+

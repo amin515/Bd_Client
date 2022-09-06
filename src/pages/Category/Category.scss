@@ -1,0 +1,152 @@
+.category__sec {
+    .cetegory__wrapper {
+        .container {
+            .all__category{
+                margin: 60px 0;
+                h2 {
+                    padding: 15px 0;
+                    text-align: center;
+                    font-family: var(--poppins);
+                    font-weight: 600;
+                }
+    
+                .category {
+                    display: grid;
+                    grid-template-columns: 1fr 3fr;
+                    gap: 20px;
+                    margin: 20px 0;
+                    .banner{
+                    }
+                    
+    
+                    .content {
+                        border: 1px solid #ddd;
+    
+                        .category__item {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr;
+                            gap: 30px;
+                            padding: 15px;
+                            cursor: pointer;
+    
+                            .category__box {
+                                background-color: var(--white);
+                                padding: 20px;
+                                border: 1px solid #ddd;
+                                position: relative;
+                                margin-top: 8px;
+                                //hover item
+                                &:hover {
+                                    background-color: rgb(248, 245, 245);
+    
+                                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+                                    .category__content {
+                                        border: 20px solid #813563;
+                                        transition: .3s;
+    
+                                        a {
+                                            color: rgba(221, 96, 96, 0.712);
+                                        }
+                                    }
+    
+                                    .category__text {
+                                        h3 {
+                                            color: rgba(221, 96, 96, 0.712);
+                                        }
+                                    }
+    
+                                    .view__more {
+    
+                                        transform: translateX(130px);
+                                        opacity: 1;
+    
+                                    }
+                                    
+                                }
+    
+                                // hover item end
+                                .category__content {
+                                    text-align: center;
+                                    border: 20px solid #ddd;
+                                    border-radius: 50%;
+                                    width: 200px;
+                                    height: 200px;
+                                    transition: .3s;
+                                    margin: auto;
+                                    a {
+                                        font-size: 60px;
+                                        display: block;
+                                        line-height: 150px;
+                                        color: #e9e9e9;
+                                    }
+                                }
+    
+                                .category__text {
+                                    text-align: center;
+                                    margin-bottom: 20px;
+    
+                                    h3 {
+                                        font-family: var(--poppins);
+                                        font-weight: 700;
+                                        margin-top: 20px;
+                                        transition: .3s;
+    
+                                    }
+                                }
+    
+                                .view__more {
+                                    background-color: #000;
+                                    width: 106px;
+                                    padding: 2px 0;
+                                    border-radius: 2px;
+                                    transition: 0.3s;
+                                    transform: translateX(-21px);
+                                    opacity: 0;
+                                    position: absolute;
+                                    bottom: 10px;
+                                    margin-top: 10px;
+    
+                                    a{
+                                        text-decoration: none;
+                                        font-family: var(--poppins);
+                                        color: var(--white);
+                                    }
+                                    p {
+    
+                                       
+                                        text-align: center;
+                                        margin: 0;
+    
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+    
+                }
+    
+                .home__diveder {
+                    
+                    .content {
+                        overflow: hidden;
+                        .divider__banner {
+                            width: 101%;
+                            margin: 30px 0;
+                            img {
+                                width: 100%;
+                                height: 50vh;
+                                
+                            }
+                        }
+    
+                        .divider__content {}
+                    }
+                }
+            }
+            // margin: 60px 0;
+           
+        }
+    }
+}

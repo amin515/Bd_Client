@@ -1,0 +1,89 @@
+
+.my__acount{
+    background-image: linear-gradient(0deg, rgba(26, 25, 25, 0.3), rgba(46, 45, 45, 0.3)),url("https://portotheme.com/html/granada/images/homebg-section.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+
+    
+    .my__acc__wrapper{
+       padding-bottom: 60px;
+        .container{
+            .acc__box{
+                box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                background-color: rgba(194, 185, 185, 0.637);
+                width: 100%;
+                height: 60vh;
+                text-align: center;
+                padding: 20px;
+                border-radius: 10px;
+                transform: translateY(80px);
+                .profile__image{
+                    margin: auto;
+                    text-align: center;
+                    img{
+                     width: 200px;
+                     height: 200px;
+                     object-fit: cover;
+                     border-radius: 50%;
+                     border: 4px solid #8b8a8a;
+                     
+                     
+                    }
+                }
+                .profile__content{
+                    
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                   
+                    justify-content: center;
+                    ul{
+                    margin-bottom: 0;
+                    margin: auto;
+                        li{
+                        border: 1px solid #ddd;
+                        width: 500px;
+                        height: 45px;
+                        margin: 10px 0;
+                        border-radius: 30px;
+                        line-height: 45px;
+                        font-family: var(--poppins);
+                        color: var(--white);
+                        }
+                        .border__radius{
+                        border: 1px solid #ddd;
+                        width: 500px;
+                        height: 45px;
+                        margin: 10px;
+                        border-radius: 30px;
+                        line-height: 45px;
+                        font-family: var(--poppins);
+                        color: var(--white);
+                        }
+                    }
+                }
+                .logout__btn{
+                    margin-top: 50px;
+                    text-align: right;
+                    a{
+                        text-decoration: none;
+                        width: 150px;
+                        height: 40px;
+                        border-radius: 8px;
+                        background-color: #520634;
+                        font-family: var(--poppins);
+                        line-height: 40px;
+                        color: rgb(255, 255, 255);
+                        text-align: center;
+                        transition: .3s;
+                        &:hover{
+                            background-color: #6b644f;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

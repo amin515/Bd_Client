@@ -1,0 +1,54 @@
+
+.offcanvas-title{
+    font-family: var(--poppins);
+    text-align: center;
+    font-size: 32px;
+}
+.offcanvas-body{
+    .table{
+    
+        thead{
+    
+        }
+        tbody{
+            border: none;
+            transform: translateY(20px);
+            border-top: none;
+            tr{
+                border-color: transparent !important;
+            }
+        }
+       
+    }
+    .subtotal__content{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #722554;
+        padding: 12px 0;
+        border-radius: 5px;
+        h4{
+            font-family: var(--poppins);
+            margin-bottom: 0;
+            color: var(--white);
+            span{
+                color: var(--white);
+            }
+        }
+    }
+    .checkout__btn{
+        margin-top: 60px;
+        text-align: center;
+      a{
+        text-decoration: none;
+        width: 250px;
+        height: 55px;
+        background-color: #722554;
+        color: var(--white);
+        line-height: 55px;
+        font-size: 18px;
+        font-family: var(--poppins);
+        border-radius: 8px;
+      }
+    }
+}

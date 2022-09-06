@@ -1,0 +1,97 @@
+
+.login__sec{
+    .login__wrapper{
+        background-image: url('../../assets/Images/register.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        background-position: top center;
+        padding: 80px 0;
+        .container{
+            .sign__in{
+                width: 600px;
+                margin: auto;
+                
+                .card{
+                    
+                    .card-body{
+                        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                        background-color: rgba(194, 185, 185, 0.637);
+                        opacity: 1;
+                        .title{
+                            h4{
+                                font-family: var(--poppins);
+                                font-size: 40px;
+                                font-weight: bold;
+                            }
+                            h5{
+                                font-family: var(--poppins);
+                                margin-top: 40px;
+                            }
+                        }
+                        form{
+                            .my-3{
+                                display: grid;
+                                label{
+                                    font-family: var(--poppins);
+                                }
+                                input{
+                                    font-family: var(--poppins);
+                                    height: 45px;
+                                    border: none;
+                                    outline: none;
+                                    background-color: #ddd;
+                                    padding: 0 10px;
+                                    border-radius: 5px;
+                                }
+                                a{
+                                    font-family: var(--poppins);
+                                    text-decoration: none;
+                                }
+                                
+                                .fgot__pass{
+                                    text-align: right;
+                                    &:hover{
+                                        color: #7b2f5d;
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                            button{
+                                border: none;
+                                font-family: var(--poppins);
+                                background-color: #7b2f5d;
+                                color: var(--white);
+                                font-size: 18px;
+                                padding: 10px 30px;
+                                transition: .3s;
+                                border-radius: 5px;
+                                &:hover{
+                                  background-color: #6b644f;
+                                }
+                            }
+                        }
+                        .sign__up__call{
+                            margin-top: 30px;
+                            p{
+                                font-family: var(--poppins);
+                                span{
+                                    font-size: 16px;
+                                    a{
+                                        text-decoration: none;
+                                        font-family: var(--poppins);
+                                        &:hover{
+                                            color: #7b2f5d;
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

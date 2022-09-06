@@ -1,0 +1,44 @@
+
+button.review__btn {
+    border: none;
+    background: transparent;
+    font-family: var(--poppins);
+    color: #000;
+    font-weight: 600;
+}
+
+.modal{
+    .modal-header{
+        .modal-title{
+            font-family: var(--poppins);
+        }
+    }
+    .modal-body{
+        form{
+            .my-3{
+                label{
+                    font-family: var(--poppins);
+                }
+                input{
+                    border: none;
+                    outline: none;
+                    background-color: #ddd;
+                }
+                textarea{
+                    border: none;
+                    outline: none;
+                    background-color: #ddd;
+                }
+                .btn-submit{
+                    font-family: var(--poppins); 
+                    border: none;
+                    padding: 12px 0;
+                    border-radius: 5px;
+                    background-color: #722554;
+                    color: var(--white);
+                }
+            }
+            
+        }
+    }
+}
