@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import './Home.scss';
 import '../../assets/Style/index.scss';
 import { AiOutlineShopping, AiOutlineHeart } from "react-icons/ai";
@@ -6,9 +6,13 @@ import shop1 from '../../assets/Images/banner2-h4.jpg';
 import shop2 from '../../assets/Images/banner3-h4.jpg';
 import chair from '../../assets/Images/chair.jpg';
 import { Link } from 'react-router-dom';
-import SiteCanvas from '../../Components/SiteCanvas/SiteCanvas';
+// import SiteCanvas from '../../Components/SiteCanvas/SiteCanvas';
 
 const Home = () => {
+    // const [show, setShow] = useState(true);
+    //   
+    // const handleClose = () => setShow(false);
+    // const toggleShow = () => setShow((s) => !s);
 return (
 <div>
 
@@ -65,7 +69,11 @@ return (
         </div>
     </div>
     {/* slider section end */}
-    <SiteCanvas/>
+    {/* <SiteCanvas 
+        show={show}
+        handleClose={handleClose}
+        toggleShow={toggleShow}
+    /> */}
     <div className="product__section">
         <div className="product__wrapper">
             <h2>Our Product</h2>
@@ -82,8 +90,8 @@ return (
                             <Link to="/checkout"><span>BUY</span></Link>
                             </li>
                             <li>
+                           <a href="#"><AiOutlineShopping/></a>
                            
-                            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><AiOutlineShopping/></a>
                             </li>
                             <li>
                                 <a href="#">

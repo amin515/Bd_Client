@@ -17,21 +17,23 @@ import Register from './pages/Register/Register';
 import SiteCanvas from './Components/SiteCanvas/SiteCanvas';
 
 
+
 function App() {
   return (
    <>
      <Header/>
      <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/singlepage' element={<SinglePage />}/>
-        <Route path='/category' element={<Category />}/>
-        <Route path='/shop' element={<Shop />}/>
-        <Route path='/thankyou' element={<ThankYou />}/>
-        <Route path='/checkout' element={<CheckOut />}/>
-        <Route path='/addtocart' element={<AddToCart />}/>
-        <Route path='/myaccount' element={<MyAccount />}/>
-        <Route path='/login' element={<Login/>}/>
+         <Route path='/singlepage' element={<SinglePage />}/>
+          <Route path='/category' element={<Category />}/>
+           <Route path='/shop' element={<Shop />}/>
+             <Route path='/thankyou' element={<ThankYou />}/>
+             <Route path='/checkout' element={<CheckOut />}/>
+            <Route path='/addtocart' element={<AddToCart />}/>
+           <Route path='/myaccount' element={<MyAccount />}/>
+          <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path='test' element={SiteCanvas}/>
      </Routes>
      <Footer/>
    </>
